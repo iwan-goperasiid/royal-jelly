@@ -20,11 +20,9 @@ importers:
 
   app/web:
     specifiers:
-      '@hediet/json-rpc': ^0.3.0
       '@types/express': ^4.17.13
       express: ^4.18.1
     dependencies:
-      '@hediet/json-rpc': 0.3.0
       '@types/express': 4.17.13
       express: 4.18.1
 
@@ -37,6 +35,12 @@ importers:
       cuid: 2.1.8
       esbuild: 0.15.7
       fs-jetpack: 4.3.1
+
+  pkgs/service:
+    specifiers:
+      '@hediet/json-rpc': ^0.3.0
+    dependencies:
+      '@hediet/json-rpc': 0.3.0
 
 packages:
 
