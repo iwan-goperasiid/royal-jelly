@@ -13,7 +13,7 @@ export type RuntimeState = {
   pid: string
   type: 'process'
   process: ChildProcess
-  call: () => {}
+  call: () => Promise<any>
 }
 
 export type ServiceManager = {
