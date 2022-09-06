@@ -1,0 +1,9 @@
+{
+  "name": "boot",
+  "version": "1.0.0",
+  "dependencies": {
+    "cuid": "^2.1.8",
+    "esbuild": "^0.15.5",
+    "fs-jetpack": "^4.3.1"
+  }
+}

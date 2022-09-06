@@ -1,0 +1,16 @@
+{
+  "name": "royal-navy",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "esbuild": "^0.15.5",
+    "jiti": "^1.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.11"
+  }
+}
